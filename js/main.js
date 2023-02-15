@@ -1,3 +1,10 @@
+let sr=ScrollReveal()
+
+
+
+
+
+
 const header=document.querySelector("header");
 // sticky navbar
 function stickyNavbar(){
@@ -5,3 +12,12 @@ function stickyNavbar(){
 }
 
 window.addEventListener("scroll",stickyNavbar);
+
+
+$(document).ready(function(){
+    $('.const').removeClass('categories');
+});
+$('.bycategory').click(function(){
+    $('.const').toggleClass('categories');
+  });
+

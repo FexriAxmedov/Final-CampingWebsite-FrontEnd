@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+     <!------         scrollreveal        ------>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!------         css        ------>
-    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/homepage.css" />
     <!------         icons        ------>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
-<body>
-    <header>
-        <nav class="container">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container">
         <a href="#" class="logo">Go<span>Camping.</span></a>
         <div class="links">
-            <ul>
-                <li>
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Shop by Category <i class="fa-solid fa-angle-down"></i></a>
-                    
-                </li>
-               
-              
-                <li>
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="rightsection">
-            <a class="account" href="#">MyAccount <i class="fa-regular fa-user"></i></a>
-            <a class="shopping-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <ul>
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link bycategory " 
+                >Shop by Category <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="rightsection">
+            <div class="input-box">
+                <div class="input-elements">
+    <input class="inputsearch" type="search" placeholder="Search...">
+    <a href="#" class="lupa"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+              </div>
+            <a class="account" href="#"
+              >MyAccount <i class="fa-regular fa-user"></i
+            ></a>
+            <a class="shopping-cart" href="#"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
         </div>
-        </div>
-    </nav>
+      </nav>
     </header>
-</body>
-<script src="./js/main.js"></script>
+
+    <div class="container-category  ">
+<div class="categories const">
+  <div class="categorynames1">
+    <ul>
+      <li><a class="namesofcategories" href="#">Camping tents & canopies</a></li>
+      <li><a class="namesofcategories" href="#">Sleeping Bags, Cots & Air Beds</a></li>
+      <li><a class="namesofcategories" href="#">Chairs, Rockers & Recliners</a></li>
+      <li><a class="namesofcategories" href="#">Camping Coolers</a></li>
+      <li><a class="namesofcategories" href="#">Grills & Picnic</a></li>
+      <li><a class="namesofcategories" href="#">Tables</a></li>
+    </ul>
+  </div>
+  <div class="categorynames2">
+    <ul>
+      <li><a class="namesofcategories" href="#">Fire Pits & Patio Heaters</a></li>
+      <li><a class="namesofcategories" href="#">Camp Kitchen</a></li>
+      <li><a class="namesofcategories" href="#">Wagons & Carts</a></li>
+      <li><a class="namesofcategories" href="#">Flashlights & Lanterns</a></li>
+      <li><a class="namesofcategories" href="#">Emergency Preparedness</a></li>
+      <li><a class="namesofcategories" href="#">Camp Tools</a></li>
+    </ul>
+  </div>
+  <div class="categorynames3">
+    <ul>
+      <li><a class="namesofcategories" href="#">Outdoor Electrical</a></li>
+      <li><a class="namesofcategories" href="#">Camping Bags & Packs</a></li>
+      <li><a class="namesofcategories" href="#">Insect Control & Repellant</a></li>
+     
+    </ul>
+  </div>
+</div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/main.js"></script>
 </html>
